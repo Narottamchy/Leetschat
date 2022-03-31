@@ -1,0 +1,160 @@
+body {
+  background-color: rgba(46, 37, 37, 0.744);
+  background-image: url("back.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.App header {
+  background-color: #000000;
+  height: 10vh;
+  min-height: 50px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: 'hurricane';
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  padding: 10px;
+  margin: 10vh 0 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #3f3ffa;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+form {
+  height: 9vh;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(63, 77, 230);
+  width: 100%;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+form button {
+  background-color: #5561df;
+
+}
+
+
+input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.2rem;
+  background: rgb(75, 74, 74);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 20px;
+}
+
+button {
+  background-color: #47aeb5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color: rgb(21, 161, 255);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.sign-in {
+  color: #000000;
+  background: rgb(180, 185, 52);
+  margin: 0 auto;
+  border-radius: 25px;
+  font-size:x-large;
+}
+
+
+
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
